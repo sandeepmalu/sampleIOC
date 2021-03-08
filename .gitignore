@@ -1,0 +1,20 @@
+**envPaths
+**/configure/O.*/
+**/*App/Db/O.*/
+**/*App/src/O.*/
+**/dbd/
+**/bin/
+**/db/
+**/lib/
+**/include/
+!**/*App/Db/
+**.log
+**.sav*
+**dllPath.bat
+**/.metadata/*
+**BOY Examples*
+**BOY Image Library/*
+
+**.*~
+.vscode
+*.txt
