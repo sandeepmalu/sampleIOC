@@ -1,7 +1,8 @@
-record("ai", testPV){
+record(ai, "testPV"){
 
 }
 
-record("a", testPV1){
+record(ai, "testPV1"){
+    field(DESC, "description")
     
 }
