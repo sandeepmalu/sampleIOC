@@ -173,8 +173,9 @@ jobs:
           cd tests/
           python3 -m pip install --upgrade pip
           pip3 install -r requirements.txt
-          
+
       - name: Pytest db and dbd syntax
         run:  |
+          make
           cd tests
           pytest test_ioc_record.py
