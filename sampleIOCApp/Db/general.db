@@ -1,4 +1,5 @@
 record(ai, "testPV"){
+field(VAL,10.0)
 
 }
 
