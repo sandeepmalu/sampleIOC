@@ -164,3 +164,7 @@ jobs:
           path: "**/O.*/*.tap"
       - name: Collect and show test results
         run: python .ci/cue.py test-results
+      - name: Pytest db and dbd syntax
+        run:  |
+          cd tests
+          pytest test_ioc_record.py
