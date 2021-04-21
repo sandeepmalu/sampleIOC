@@ -164,6 +164,16 @@ jobs:
           path: "**/O.*/*.tap"
       - name: Collect and show test results
         run: python .ci/cue.py test-results
+      - name: Set up Python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+      - name: Install dependencies
+        run: |
+          cd tests/
+          python3 -m pip install --upgrade pip
+          pip3 install -r requirements.txt
+          
       - name: Pytest db and dbd syntax
         run:  |
           cd tests

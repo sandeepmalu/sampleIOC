@@ -1,0 +1,7 @@
+pyserial
+serial
+numpy
+pytest
+PyHamcrest
+sockets
+lewis
